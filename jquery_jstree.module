@@ -1,0 +1,18 @@
+<?php
+
+// $Id$ 
+
+/**
+ * Adds the jQuery jstree plugin to a page.
+ */
+function jquery_jstree_plugin_add() {
+	$path = drupal_get_path('module', 'jquery_jstree') .'/jquery/';
+  drupal_add_js($path . 'jquery.jstree.js');
+}
+
+/**
+ * Implementation of hook requirements
+ */
+function jquery_jstree_plugin_requirements() {
+  //TODO fill in hook requirements
+}
