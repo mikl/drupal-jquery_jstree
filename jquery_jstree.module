@@ -1,6 +1,5 @@
 <?php
 
-// $Id$ 
 
 /**
  * Adds the jQuery jstree plugin to a page.

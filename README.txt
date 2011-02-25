@@ -1,5 +1,4 @@
 
-$Id$
 
 //DEPENDENCIES
   Jquery 1.4.2 Learn to install http://dominiquedecooman.com/blog/drupal-install-jquery142
