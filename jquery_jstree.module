@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * @file
+ * Simple Drupal module to provide access to the jsTree jQuery plugin.
+ */
 
 /**
  * Adds the jQuery jstree plugin to a page.
