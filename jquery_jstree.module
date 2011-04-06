@@ -10,6 +10,7 @@
 function jquery_jstree_plugin_add() {
 	$path = drupal_get_path('module', 'jquery_jstree') .'/jquery/';
   drupal_add_js($path . 'jquery.jstree.js');
+  drupal_add_js(array('jQueryJSTreePath' => base_path() . $path), 'setting');
 }
 
 /**
